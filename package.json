@@ -1,0 +1,34 @@
+{
+  "name": "mx.edu.utxj.ti.awos.bienes-raices",
+  "version": "1.0.0",
+  "description": "Proyecto de clase para la Unidad 2 , de la asignatura AWOS utilizando node .js",
+  "main": "index.js",
+  "scripts": {
+    "saluda":"node index.js",
+    "server":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bleon26/BienesRaices_230353..git"
+  },
+  "keywords": [
+    "MVC",
+    "Express",
+    "Squelite",
+    "MySQL",
+    "Tailwin",
+    "Nodemon",
+    "NodeJS",
+    "Miltrap",
+    "JwT"
+  ],
+  "author": "Brandon Leon Cabrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bleon26/BienesRaices_230353./issues"
+  },
+  "homepage": "https://github.com/bleon26/BienesRaices_230353.#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
