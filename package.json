@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Proyecto de clase para la Unidad 2 , de la asignatura AWOS utilizando node .js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "saluda":"node index.js",
     "server":"nodemon index.js"
@@ -27,7 +28,10 @@
   "bugs": {
     "url": "https://github.com/bleon26/BienesRaices_230353./issues"
   },
-  "homepage": "https://github.com/bleon26/BienesRaices_230353.#readme",
+ "homepage": "https://github.com/bleon26/BienesRaices_230353./issues",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
   "devDependencies": {
     "nodemon": "^3.1.7"
   }
