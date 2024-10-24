@@ -9,8 +9,9 @@ Para poder mostrar y aprender la creacion y consumo de interfaces de programacio
 
 |No.|Fecha |Descripcion|Potenciador|Estatus|
 |--|--|--|--|--|
-|8.|17/10/2024|Nuevo Repositorio de Proyecto Implementado.gitigmore|1|Activa|
-|9.|22/10/2024|Creacion de una Aplicacion web usando Espress|11|Activa|
+|8.|17/10/2024|Nuevo Repositorio de Proyecto Implementado.gitigmore|1|Finalizada|
+|9.|22/10/2024|Creacion de una Aplicacion web usando Espress|12|Finalizada|
+|10.|24/10/2024|Operaciones basicas de una API a traves de los verbos HTTP|12|Finalizada|
 
 ## Autor
 ** Brandon Leon Cabrera ** / [@bleon26](https://github.com/bleon26)
