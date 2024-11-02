@@ -46,7 +46,7 @@ router.patch("/updatePassword/:email/:newPassword/:newPasswordConfirm", function
 //DELETE 
 
 router.delete("/deleteUser/:email", function(req, res){
-    response.send(`Se ha solicitado la eliminación del usuario asociado al correo: ${req.params.email}`)
+    res.send(`Se ha solicitado la eliminación del usuario asociado al correo: ${req.params.email}`)
 })
 
 export default router;
