@@ -9,6 +9,9 @@ const app= express()
 app.set('view engine','pug')
 app.set('view','./views')
 
+//Definir la carpeta ubicada en recuersos estatdisticos
+app.use(express.static('./public'));
+
 //configuramos nuestro servidor web
 const port =3000;
 app.listen(port, ()=>{
