@@ -1,20 +1,19 @@
-# BienesRaices_230353
-Proyecto de clase para la Unidad 2 de la asignatura de aplicaciones Orientada a Servicios (AWOS) a traves  de una Aplicacion WEB arquitectura SOA para el  caso de estudio  de una empresa de Bienes Raices (compra-venta de Bienes Inmuebles)
+# BienesRaices_230574
+Proyecto de Clase para la Unidad 2 de la Asignatura de Aplicaciones Web Orientadas a Servicios (AWOS), a través de una aplicación web en Arquitectura SOA para el caso de estudio de una empresa de Bienes Raíces (Compra - Venta de Bienes Inmuebles).
 
-## Descripcion
 
-Para poder mostrar y aprender la creacion y consumo de interfaces de programacion de Aplicacion (API), con el uso de Aplicaciones web , en este proyecto se realizara un sistema CRUD en el contexto de las operaciones comunes para una empresa de Bienes Raices , mediante la compra , venta y renta de propiedades , utilizando las reglas de negocio apropiadas para la gestion , identificacion y control de usuarios
+## Descripción
+Para poder demostrar y aprender la creación y consumo de interfaces de Programación de Aplicación (API), con el uso de Aplicaciones Web, en este proyecto se realizará un sistema CRUD en el contexto de las operaciones comunes para una empresa de bienes raíces, mediante la compra, venta y renta de propiedades, utilizando las reglas de negocio apropiadas para la gestión, identificación y control de usuarios.
 
-## Historial de practicas 
-
-|No.|Fecha |Descripcion|Potenciador|Estatus|
-|--|--|--|--|--|
-|8.|17/10/2024|Nuevo Repositorio de Proyecto Implementado.gitigmore|1|Finalizada|
-|9.|22/10/2024|Creacion de una Aplicacion web usando Espress|12|Finalizada|
-|10.|24/10/2024|Operaciones basicas de una API a traves de los verbos HTTP|12|Finalizada|
+## Historial de prácticas
+|No.|Fecha|Descripción|Potenciador|Estatus|
+|---|---|---|---|---|
+|8.|17/10/2024|Nuevo Repositorio del proyecto implementado .gitignore|1|Finalizada|
+|9.|22/10/2024|Creación de una Aplicación Web usando Express|11|⭐Finalizada|
+|10.|24/10/2024|Operaciones Básicas de una API a traves de los verbos HTTP||⭐ Activa|
 
 ## Autor
-** Brandon Leon Cabrera ** / [@bleon26](https://github.com/bleon26)
-Unidad 2
-Aplicaciones Web Orientada a Servicios
+**Angel de Jesus Rufino Mendoza** / [@RufinoAngel](https://github.com/RufinoAngel)<br>
+Unidad 2 <br>
+Aplicaciones Web Orientadas a Servicios<br>
 Octubre 2024
