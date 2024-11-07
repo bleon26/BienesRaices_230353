@@ -1,38 +1,44 @@
 {
   "name": "mx.edu.utxj.ti.awos.bienes-raices",
   "version": "1.0.0",
-  "description": "Proyecto de clase para la Unidad 2 , de la asignatura AWOS utilizando node .js",
+  "description": "Proyecto de Clase para la Unidad 2, de la asignatura AWOS utilizando Node.js",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "saluda":"node index.js",
-    "server":"nodemon index.js"
+    "saluda": "node saluda.js",
+    "server": "nodemon index.js",
+    "css": "postcss public/css/tailwind.css -o public/css/app.css --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bleon26/BienesRaices_230353..git"
+    "url": "git+https://github.com/bleon26.git"
   },
   "keywords": [
     "MVC",
     "Express",
-    "Squelite",
-    "MySQL",
-    "Tailwin",
+    "Sequielize",
+    "MyAQL",
+    "Tailwind",
     "Nodemon",
     "NodeJS",
-    "Miltrap",
-    "JwT"
+    "Mailtrap",
+    "JWT"
   ],
   "author": "Brandon Leon Cabrera",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bleon26/BienesRaices_230353./issues"
   },
- "homepage": "https://github.com/bleon26/BienesRaices_230353./issues",
+  "homepage": "https://github.com/bleon/BienesRaices-230353#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "pug": "^3.0.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "autoprefixer": "^10.4.20",
+    "nodemon": "^3.1.7",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.14"
   }
 }

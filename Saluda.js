@@ -1,2 +1,2 @@
-const nombre="Brandon"
-console.log(`Hola ${nombre},Mundo desde NodeJs`)
+const nombre = 'Angel';
+console.log(`Hola ${nombre},Mundo desde NodeJS, feliz lunes!`);
