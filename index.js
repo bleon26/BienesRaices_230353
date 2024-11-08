@@ -1,8 +1,7 @@
 //ECMA Sript 6
 // commin JS
+
 import express from 'express';
-import generalRoutes from './routes/generalRouters.js'
-import userRoutes from './routes/UserRouters.js'
 import generalRoutes from './routes/generalRoutes.js'
 import userRoutes from './routes/userRoutes.js'
 //const express = require('express'); //DECLARANDO UN OBJETO QUE VA A PERMITIR LEER PAGINAS ETC.importar la libreria para crear un servidor web
@@ -22,10 +21,6 @@ app.listen(port, () => {
 
 //Routing - Enrutamiento
 app.use('/',generalRoutes);
-
-app.use('/usuario/', userRoutes);
-//Probamos rutas para poder presentar mensajes al usuario a través del navegador
-
 app.use('/auth/', userRoutes);
 //Probamos rutas para poder presentar mensajes al usuario a través del navegador
 
