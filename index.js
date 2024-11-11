@@ -3,7 +3,7 @@
 
 import express from 'express';
 import generalRoutes from './routes/generalRoutes.js'
-import userRoutes from './routes/userRoutes.js'
+import userRoutes from './Routes/userRoutes.js'
 //const express = require('express'); //DECLARANDO UN OBJETO QUE VA A PERMITIR LEER PAGINAS ETC.importar la libreria para crear un servidor web
 
 //INSTANCIAR NUESTRA APLICACIÓN WEB

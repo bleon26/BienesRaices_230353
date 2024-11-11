@@ -12,6 +12,8 @@ router.get("/busquedaPorID/:id", function (request, response){
     response.send(`Se esta solicitando buscar al usuario con ID: ${request.params.id}`)
 })   //2 componentes de una petición ruta y función callback - La ruta es la que pide la información el callback es lo que se va a hacer
 
+router.post("/newUser", createNewUser)
+
 //POST - se utiliza para el envío de datos e información del cliente al servidor
 router.post("/new/:name/:email/:password", function(req,res){
     res.send(`Se ha solicitado la creación de un nuevo usuario de nombre: ${req.params.name}, asociando el correo electronico: ${req.params.email} con la contraseña: ${req.params.password}`)

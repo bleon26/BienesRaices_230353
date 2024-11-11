@@ -18,6 +18,10 @@ const formularioPasswordRecovery = (request,response)=>{
     })
 }
 
+const createNewUser=(request,response)=>{
+
+}
+
 export {formularioLogin,formularioRegister,formularioPasswordRecovery}
 
 
