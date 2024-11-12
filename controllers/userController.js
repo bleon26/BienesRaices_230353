@@ -19,10 +19,10 @@ const formularioPasswordRecovery = (request,response)=>{
 }
 
 const createNewUser=(request,response)=>{
-
+    console.log('Registrandon...')
 }
 
-export {formularioLogin,formularioRegister,formularioPasswordRecovery}
+export {formularioLogin,formularioRegister,formularioPasswordRecovery,createNewUser}
 
 
 
