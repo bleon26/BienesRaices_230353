@@ -1,9 +1,8 @@
 import{DateTypes} from 'sequelize'
 import db from '../config/db.js'
-import {Token} from 'graphql'
 
-const Usuario = db.define('usuarios',{
-    nombre:{
+const Usuario = db.define('tb_usuarios',{
+    name:{
         type: DataTypes.STRING ,
         allowNull:false
     },
@@ -20,4 +19,4 @@ const Usuario = db.define('usuarios',{
         confrimado:DateTypes.BOOLEAN
     }
 })
-export default Usuario
+export default Usuario;

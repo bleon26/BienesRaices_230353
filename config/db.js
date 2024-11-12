@@ -4,7 +4,7 @@ dotenv.config({path: '.env'})
 
 const db = new Sequelize(process.env.DB_NAME,process.env.DB_USER,process.env.DB_PASS,{
     host:process.env.DB_DOMAIN,
-    port:process.env,DB_PORT,
+    port:process.env.DB_PORT,
     dialect:'mysql',
     define:{
         timestamps:true
@@ -16,3 +16,4 @@ const db = new Sequelize(process.env.DB_NAME,process.env.DB_USER,process.env.DB_
         locale:10000
     },
 });
+export default db;
