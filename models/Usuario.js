@@ -18,5 +18,6 @@ const Usuario = db.define('tb_usuarios',{
         type: DateTypes.STRING,
         confrimado:DateTypes.BOOLEAN
     }
+    
 })
 export default Usuario;
